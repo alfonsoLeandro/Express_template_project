@@ -1,3 +1,5 @@
 export enum ErrorCodes {
+    NO_TOKEN_PROVIDED = 'NO_TOKEN_PROVIDED',
+    INVALID_TOKEN = 'INVALID_TOKEN',
     X_NOT_FOUND = 'X_NOT_FOUND',
 }
