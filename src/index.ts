@@ -14,7 +14,7 @@ class Server {
         dotenv.config();
 
         this.app = express();
-        this.port = +(process.env.SERVER_PORT || 2343);
+        this.port = +(process.env.SERVER_PORT || 3000);
 
         this.middlewares();
 
